@@ -7,11 +7,11 @@
 .container {
     position: relative;
     top: 20vh;
-    bottom: 20vh;
-    width: 60%;
+    max-width: 60%;
     margin: auto;
     background-color: purple;
     border: 1px solid black;
+    overflow: hidden;
 }
 #slider {
     position: relative;
