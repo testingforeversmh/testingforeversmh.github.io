@@ -1,0 +1,28 @@
+* {
+    background-color: pink;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    position: relative;
+    top: 20vh;
+    width: 60%;
+    margin: auto;
+    background-color: purple;
+    border: 1px solid black;
+}
+#slider {
+    position: relative;
+    display: flex;
+}
+img {
+    position: initial;
+    width: 100%;
+}
+/* .radio {
+    position: relative;
+    border: 1px solid black;
+    margin: auto;
+    bottom: 0;
+} */
