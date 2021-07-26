@@ -5,20 +5,10 @@
     box-sizing: border-box;
 }
 .container {
-    position: relative;
-    top: 20vh;
-    max-width: 60%;
+    max-width: 60vh;
     margin: auto;
-    background-color: purple;
-    border: 1px solid black;
-    overflow: hidden;
-    
 }
-#slider {
-    position: relative;
-    display: flex;
-    transform: translateX(-100%);
-}
-img {  
+img {
     width: 100%;
+    object-fit: scale-down;
 }
